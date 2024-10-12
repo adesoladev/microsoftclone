@@ -269,6 +269,24 @@ footer div i {
   margin-bottom: 20px;
 }
 
+@media only screen and (max-width: 1024px) {
+  .meet-surface-card {
+    width: 45%;
+  }
+
+  .home-cards {
+    grid-template-columns: repeat(2, 1fr);
+  }
+
+  .explore-more {
+    grid-template-columns: repeat(2, 1fr);
+  }
+
+  .links-inner {
+    grid-template-columns: repeat(3, 1fr);
+  }
+}
+
 @media only screen and (max-width: 700px) {
   .menu-btn {
     display: block;
